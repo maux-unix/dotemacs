@@ -1,11 +1,7 @@
-;; Taken & Modified from Rexim dotfiles
-;; https://github.com/rexim/dotfiles/blob/master/.emacs.rc/rc.el
+;; -*- mode:emacs-lisp; coding:utf-8; lexical-binding: t; -*-
 
-;; 
 (add-to-list 'package-archives
-	         ;; '("melpa-stable" . "https://stable.melpa.org/packages/")
-             '("melpa" . "https://melpa.org/packages/")
-             t )
+             '("melpa" . "https://melpa.org/packages/") t)
 
 (defvar rc/package-contents-refreshed nil)
 

@@ -1,5 +1,4 @@
-;; Diambil dari Rexim dotfiles
-;; Dimodifikasi oleh Maulana Ali
+;; -*- mode:emacs-lisp; coding:utf-8; lexical-binding: t; -*-
 
 (require 'ansi-color)
 
@@ -141,6 +140,7 @@ This command does the inverse of `fill-paragraph'."
 
 ;; Stolen From Uncle Dave's Emacs
 ;;; This fixed garbage collection, makes emacs start up faster ;;;;;;;
+
 (setq gc-cons-threshold 402653184
       gc-cons-percentage 0.6)
 

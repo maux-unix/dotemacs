@@ -1,3 +1,5 @@
+;; -*- mode:emacs-lisp; coding:utf-8; lexical-binding: t; -*-
+
 (require 'subr-x)
 
 (defvar simpc-mode-syntax-table

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: emacs lisp header
+# key: elh
+# --
+
+;; -*- mode:emacs-lisp; coding:utf-8; lexical-binding: t; -*-
